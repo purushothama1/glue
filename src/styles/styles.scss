@@ -1,0 +1,27 @@
+/**
+* Global Style file where all index file will be imported
+*/
+
+@import './responsive/breakpoints.scss';
+@import './home/index.scss';
+@import './home/navbar.scss';
+@import './home/responsiveness.scss';
+@import url(https://db.onlinewebfonts.com/c/9b06ae83a4412168ed194a8ed31218c2?family=Mabry+Pro+Medium);
+
+//@import url("../assets/bg-shadow1.png");
+//@import "../assets/bg-shadow1.png";
+
+
+@font-face {
+  font-family: MabryProRegular;
+  src: url('../fonts/mabry-regular-pro.ttf') format('woff2');
+  // font-weight: regular;
+}
+
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+

@@ -1,0 +1,222 @@
+@media only screen and (min-width : 320px) and (max-width : 786px) 
+{
+  .replacetext
+  {
+    font-size: 40px;
+    line-height: 50px;
+
+  }
+  .bordomtext
+  {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .playfultext
+  {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .MuiTabs-centered
+  {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .MuiButtonBase-root 
+  {
+    margin-bottom: 10px !important;
+  }
+  .pooterlinks
+  {
+    text-align: center;
+  }
+  .sidetabtext
+  {
+    padding-left: 0px;
+  }
+  .mwimgdiv img
+  {
+    width: 100%;
+  }
+  .panel-content img
+  {
+    width: 225px;
+    height: 225px;
+    object-fit: cover;
+    padding-bottom: 10px;
+    border-radius: 10px;
+  }
+  .MuiButtonBase-root
+  {
+    font-size: 10px !important;
+  }
+  .fooetrimgdiv
+  {
+    text-align: center;
+  }
+  .footerlogodiv
+  {
+    padding: 0px;
+  }
+  .socialdiv
+  {
+    padding: 0px;
+  }
+  .rights
+  {
+    text-align: center;
+  }
+  .signupli .nav-links {
+    padding: 10px 15px;
+}
+.nav-menu.active
+{
+  padding: 15px;
+}
+.tabicondiv img
+{
+width: 50px;
+padding-top: 4px;
+}
+.sidetabtext
+{
+  padding-left: 10px;
+  padding-top: 10px;
+    font-size: 15px;
+    line-height: 20px;
+}
+.sidetabtext br
+{
+  display: none;
+}
+.sliderimg
+{
+  width: 100% !important;
+}
+.bordomimg
+{
+  object-fit: cover;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: auto;
+}
+.homeheadings {
+  font-size: 40px;
+  line-height: 40px;
+}
+.videosectionheading
+{
+  font-size: 40px;
+  line-height: 40px;
+}
+.makeworkrow
+{
+  padding-bottom: 10px;
+}
+.react-tabs__tab-list
+{
+  width: 50%;
+}
+.canvasdiv img {
+  height: 160px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.play-button
+{
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  width: 30px;
+}
+.nav-container .logo {
+padding-top: 20px;
+padding-left: 20px
+};
+.nav-icon
+{
+  top: 28px;
+    right: 23px;
+    transform: none;
+}
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width : 786px) and (max-width : 992px) 
+{
+  .replacetext
+  {
+    font-size: 50px;
+    line-height: 50px;
+
+  }
+  .bordomtext
+  {
+    font-size: 50px;
+    line-height: 50px; 
+  }
+  .playfultext
+  {
+    font-size: 50px;
+    line-height: 50px; 
+  }
+  .bordom-subtext
+  {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .react-tabs__tab-list
+  {
+    width: 50%;
+  }
+  .mwimgdiv img
+  {
+    width: 100%;
+  }
+  .panelimg
+  {
+width: 100%;
+float: left;
+text-align: center;
+}
+.panelimg img
+  {
+    width: 270px;
+    height: 270px;
+object-fit: cover;
+margin-bottom: 10px;
+  }
+.panelseconddiv
+{
+  width: 100% !important;
+  float: left;
+object-fit: cover;
+text-align: center;
+}
+.panelseconddiv img
+  {
+    width: 270px;
+    height: 270px;
+object-fit: cover;
+margin-bottom: 10px;
+  }
+
+}
+
+
+@media only screen and (min-width : 993px) and (max-width : 1024px) 
+{
+  .panelimg img
+  {
+    width: 100%;
+  }
+  .panelseconddiv img 
+  {
+    width: 100%;
+  }
+}

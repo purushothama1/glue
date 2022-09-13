@@ -1,0 +1,683 @@
+/**
+* A Typical Style file
+*/
+// @import  url()
+
+.cwr_homepage_wrapper {
+  background-color: #fff;
+  min-height: 100vh;
+  .cwr_header {
+    // background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     padding: 3%;
+    .header_logo {
+      width: 200px;
+    }
+    span {
+      display: flex;
+      align-items: center;
+      font-family: "Mabry Pro Medium" !important;
+      a {
+        color: #1A1A1A;
+        margin-right: 8px;
+        text-decoration: none;
+        text-decoration: none;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        padding-right: 20px;
+        svg {
+          fill: #fff;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  .cwr_body {
+    background-color: #fff;
+    // min-height: calc(100vh - 69.7px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .body_heading {
+      font-family: "Mabry Pro Medium" !important;
+      h1 {
+        text-align: center;
+        width: 100%;
+        font-size: 70px;
+        line-height: 1.1;
+        letter-spacing: -0.06em;
+        span {
+          color: #007fff;
+        }
+      }
+      h2 {
+        text-align: center;
+        width: 100%;
+        font-size: 70px;
+        line-height: 1.1;
+        letter-spacing: -2px;
+      }
+    }
+    .body_text {
+      width: 70%;
+      margin-top: 30px;
+      p {
+        text-align: center;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.6;
+        letter-spacing: -0.02em;
+        color: #666666;
+        font-family: "Mabry Pro Medium" !important;
+      }
+    }
+    .cwr_licence {
+      font-family: "Mabry Pro Medium" !important;
+      margin-top: 60px;
+      color: #666666;
+      a {
+        color: #0070f3;
+        margin-left: 10px;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+
+.replacetext
+{
+  font-family: "Mabry Pro Medium" !important;
+font-style: normal;
+font-weight: 900;
+font-size: 50px;
+line-height: 76px;
+color: #000000;
+}
+.bordomtext
+{
+  font-family: "Mabry Pro Medium" !important;
+font-style: normal;
+font-weight: 800;
+font-size: 50px;
+line-height: 76px;
+color: #7E7C7C;
+}
+.playfultext
+{
+  font-family: "Mabry Pro Medium" !important;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 76px;
+  color: #FF773D;
+}
+.bordomimg
+{
+  width: 100%;
+  height: 370px;
+  border-radius: 10px;
+}
+.bordom_wrapper
+{
+  padding-top:5%;
+  padding-bottom:5%;
+}
+.bordom-subtext
+{
+  font-family: "Mabry Pro Medium" !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px; 
+  color: #000000;
+  padding-top: 10px;
+}
+.start-button
+{
+  background: #FF773D;
+border-radius: 10px;
+padding: 10px 20%;
+border: none;
+margin-top: 5%;
+font-family: "Mabry Pro Medium" !important;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 25px;
+color: #FFFFFF;
+}
+.start-button:hover{
+  background: #fff;
+  border: 1px solid #ff773d;
+  color: #ff773d;
+  transition-delay: 0.2s;
+}
+
+
+.bordem_wrapper
+{
+  // background-image: url("../../assets/bg-shadow1.png");
+  background-repeat: no-repeat;
+}
+.visual-wrapper
+{
+  
+  width: 100%;
+    float: left;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+.visualthink
+{
+  width: 100%;
+  float: left;
+  background: rgba(251, 223, 185, 0.16);
+}
+.visualrow
+{
+  margin: 0px;
+}
+.canvasdiv
+{
+  text-align: center;
+}
+.canvasdiv img{
+  height: 207px;
+}
+.visualhead
+{
+  font-family: "Mabry Pro Medium" !important;
+font-style: normal;
+font-weight: 900;
+font-size: 26px;
+line-height: 28px;
+padding-top:10px ;
+color: #4E2C17;
+}
+.visualsub
+{
+  font-family: "Mabry Pro Medium" !important;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+color: #4E2C17;
+}
+.line
+{
+  width: 71.41px;
+height: 0px;
+float: left;
+border: 1px solid #FF853C;
+margin-top: 10px;
+margin-right: 5px;
+}
+
+//commom style for all headings
+.homeheadings{
+  font-family: "Mabry Pro Medium" !important;
+font-style: normal;
+font-weight: 900;
+font-size: 50px;
+line-height: 59px;
+color: #000000;
+}
+.videosectionheading{
+  font-family: "Mabry Pro Medium" !important;
+font-style: normal;
+font-weight: 900;
+font-size: 50px;
+line-height: 59px;
+color: #000000;
+text-align: center;
+}
+.Playfully
+{
+  font-family: "Mabry Pro Medium" !important;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+color: #161412;
+}
+
+
+
+.react-tabs {
+  display: flex;
+  
+ 
+}
+
+.react-tabs__tab-list {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 0;
+  padding: 0;
+  // color: white;
+  // background: #3c3e43;
+}
+
+.react-tabs__tab {
+  list-style: none;
+  // padding: 10px 0px;
+  cursor: pointer;
+  display: flex;
+   color: #282528;
+}
+
+.react-tabs__tab--selected {
+  // background: #1c1d1f;
+  // border-color: #1c1d1f;
+  // border-left: 4px solid #6eb800;
+  color: #FF7C1D;
+  display: flex;
+  outline: none;
+}
+
+.react-tabs__tab:before {
+  // height: 70px;
+  list-style: none;
+  content: url(https://res.cloudinary.com/dvli2yrzi/image/upload/v1662906163/teamclock2.svg);
+  padding: 10px 0px;
+  cursor: pointer;
+  display: flex;
+   color: #282528;
+}
+.react-tabs__tab--selected::before
+{
+  content: url(https://res.cloudinary.com/dvli2yrzi/image/upload/v1662905197/teamtabicon.svg);
+  fill: green;
+  color: red;
+}
+
+.react-tabs__tab-panel {
+  display: none;
+  // width: 300px;
+}
+
+.react-tabs__tab-panel--selected {
+  display: block;
+}
+
+.panelimg
+{
+  padding-top:6%;
+}
+
+
+
+.panel-content {
+  text-align: center;
+  animation-name:moveInRight ;
+  animation-duration: 3s;
+}
+
+.sidetabtext
+{
+  padding-left: 20px;
+  margin: 0px;
+    padding-top: 10px;
+    font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+}
+.tavcontentdiv
+{
+  display: flex;
+}
+.makeworkrow
+{
+  padding-top: 5%;
+  width: 100%;
+  float: left;
+}
+// .panel-content img{
+//   width: 88%;
+// }
+
+
+.row
+{
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+
+.MuiButtonBase-root
+{
+  background-color: #F5F2FC !important;
+  border-radius: 30px !important;
+  min-height: 30px !important;
+  margin-right: 20px !important;
+  font-size: 16px !important;
+  padding: 12px 26px !important;
+}
+.mwtabhead
+{
+  font-family: "Mabry Pro Medium" !important;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 28px;
+color: #1A1A1A;
+}
+.mwtabsubtext
+{
+  font-family: "Mabry Pro Medium" !important;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+/* or 175% */
+
+
+color: #1A1A1A;
+}
+.mwimgdiv
+{
+  text-align: center;
+
+}
+.mwimgdiv img
+{
+ width: 90%;
+  
+}
+.mwtablink
+{
+  font-family: "Mabry Pro Medium" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+  
+  
+ 
+}
+.mwtablink a{
+  color: #FF853C;
+  text-decoration: none;
+}
+.MuiBox-root
+{
+  border-bottom: 0px solid !important;
+  padding: 0px !important;
+  // padding-top: 20px !important;
+}
+.MuiTabs-indicator
+{
+  display: none;
+}
+.makeworktabs
+{
+ padding-bottom: 5%;
+}
+.Mui-selected
+{
+  background-color: #FFCB35 !important;
+}
+
+.mwimgdiv img{
+  object-fit: cover;
+  height: auto;
+}
+.footermaindiv
+{
+  width: 100%;
+  float: left;
+  background-color: #FEF6EB;
+  padding: 5% 0% 2% 0%;
+}
+.pooterlinks a{
+  text-decoration: none;
+  font-family: "Mabry Pro Medium" !important;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+}
+.pooterlinks a:active{
+  color: #FFCB35; 
+}
+.pooterlinks a:hover{
+  color: #FFCB35; 
+}
+.pooterlinkstext
+{
+  
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
+.fooetrimgdiv
+{
+padding-bottom: 20px;
+}
+.footerrow
+{
+  padding-bottom: 20px;
+}
+.socialdiv img
+{
+  padding-right: 10px;
+}
+.socialdiv
+{
+  padding-left: 8%;
+}
+
+.footerlogodiv
+{
+  padding-left: 13%;
+}
+.footerhr
+{
+  width: 100%;
+  height: 1px;
+  background-color: #FF9668;
+  margin-top: 4%;
+}
+.rights
+{
+  font-family: "Mabry Pro Medium" !important;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+text-align: right;
+}
+.linkshead{
+  color: #FF773D !important;
+}
+
+.mwtablink img
+{
+width: 4%;
+padding-left: 5px;
+}
+
+.slick-slide {
+  padding: 10 10px 10px 10px !important;
+}
+/* the parent */
+.slick-list {
+  padding: 0 -10px !important;
+}
+
+.videosection
+{
+  padding-top: 40px;
+  float: left;
+  width: 100%;
+  padding-bottom: 6%;
+}
+.videosectionsebhead
+{
+  font-family: "Mabry Pro Medium" !important;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 31px;
+color: #161412;
+text-align: center;  
+padding-bottom: 20px;
+}
+.peoplevoice
+{
+  font-family: "Mabry Pro Medium" !important;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #FF853C;
+text-align: center;
+}
+
+
+
+
+// .slick-slider .slick-slide.slick-current, .slick-slider .slick-slide.slick-center {
+//   transform:scale(2);
+//   // margin-top:3%;
+//   // margin-bottom:3%;
+// }
+
+.sliderimg
+{
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+
+
+//slick slider styles
+
+.slick-active { 
+  padding: 20px 10px; 
+  transform: scale(0.9) !important;
+}
+
+
+.slick-center { 
+  transform: scale(1.08)  !important;
+}
+
+.slick-slide:not(.slick-active) { 
+  margin: 20px 0; 
+}
+
+.child { 
+  width:100%; 
+}
+
+.slide:not(.slick-active) { 
+  cursor: pointer; 
+}
+
+.pagination {
+  text-align: center; 
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.textcursor
+{
+  display: none !important;
+}
+.mwtab
+{
+  animation-name:moveInRight ;
+  animation-duration: 2s;
+}
+
+.mwtab1
+{
+  animation-name:moveInLeft ;
+  animation-duration: 2s;
+}
+
+// .mwtab:nth-child(0){
+//   animation-name:moveInLeft ;
+//   animation-duration: 1s;
+// }
+
+// .mwtab:nth-child(1){
+//   animation-name:moveInLeft ;
+//   animation-duration: 1s;
+// }
+
+// .mwtab:nth-child(2){
+//   animation-name:moveInRight ;
+//   animation-duration: 1s;
+// }
+
+// .mwtab:nth-child(3){
+//   animation-name:moveInRight ;
+//   animation-duration: 1s;
+// }
+
+
+
+
+.bgimg
+{
+  background-image: url(https://res.cloudinary.com/dvli2yrzi/image/upload/v1662978511/blob1_svg_1.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: 100%;
+  width: 60%;
+  top: 0px;
+  padding-bottom: 52%;
+  right: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// tab animation style
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translate(-20rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translate(20rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+
