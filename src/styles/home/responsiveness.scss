@@ -1,11 +1,17 @@
+@media only screen and (min-width : 320px) and (max-width : 480px) 
+{
+  .panel-content 
+{
+  display: none;
+}
+}
 @media only screen and (min-width : 320px) and (max-width : 786px) 
 {
   .replacetext
   {
     font-size: 40px;
     line-height: 50px;
-
-  }
+}
   .bordomtext
   {
     font-size: 40px;
@@ -79,18 +85,22 @@ padding-top: 4px;
 }
 .sidetabtext
 {
-  padding-left: 10px;
-  padding-top: 10px;
+  padding-left: 20px;
+  padding-top: 22px;
     font-size: 15px;
     line-height: 20px;
 }
-.sidetabtext br
-{
-  display: none;
-}
+// .sidetabtext br
+// {
+//   display: none;
+// }
 .sliderimg
 {
   width: 100% !important;
+}
+.border_text
+{
+  display: grid;
 }
 .bordomimg
 {
@@ -114,7 +124,7 @@ padding-top: 4px;
 }
 .react-tabs__tab-list
 {
-  width: 50%;
+  width: 100%;
 }
 .canvasdiv img {
   height: 160px;
@@ -138,6 +148,7 @@ padding-left: 20px
     right: 23px;
     transform: none;
 }
+
 }
 
 

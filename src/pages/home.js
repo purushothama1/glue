@@ -19,6 +19,7 @@ const Home = () => {
   // const [replace, setReplace] = useState('mohan');
   // const [content, setContent] = useState('mohan kumar');
 
+  console.log(Bordom, 'hiiiii');
   useEffect(() => {
     dispatch(appInit(true));
   }, []);
@@ -102,7 +103,7 @@ const Home = () => {
       <div className=' videosection '>
         <VideoSection />
       </div>
-
+      <div className='vidiosectionbg' />
       <Footer />
       {/* <TextAnimation /> */}
     </>

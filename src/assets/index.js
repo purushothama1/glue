@@ -4,3 +4,4 @@ export * as BgShadow from './bg-shadow1.png';
 export * as Hamberger from './menu.svg';
 export * as TeamTabIcon from './teamtabicon.svg';
 export * as Bordom from './homegif.gif';
+export * as Tabicon1 from './tabicon1.svg';

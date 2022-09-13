@@ -9,7 +9,7 @@ const TypingEffect = () => (
 
     <br />
 
-    <ReactTypingEffect
+    {/* <ReactTypingEffect
       text={['Playfulness', 'Creativity', 'Equality']}
       cursorRenderer={(cursor) => <h1>{cursor}</h1>}
       displayTextRenderer={(text, i) => (
@@ -27,7 +27,7 @@ const TypingEffect = () => (
           })}
         </h1>
       )}
-    />
+    /> */}
   </>
 );
 

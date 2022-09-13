@@ -5,7 +5,7 @@
 
 .cwr_homepage_wrapper {
   background-color: #fff;
-  min-height: 100vh;
+  // min-height: 100vh;
   .cwr_header {
     // background-color: #000;
     display: flex;
@@ -335,7 +335,7 @@ line-height: 28px;
 }
 .makeworkrow
 {
-  padding-top: 5%;
+  padding-top: 8%;
   width: 100%;
   float: left;
 }
@@ -636,7 +636,7 @@ text-align: center;
   background-image: url(https://res.cloudinary.com/dvli2yrzi/image/upload/v1662978511/blob1_svg_1.svg);
   background-repeat: no-repeat;
   position: absolute;
-  background-size: 100%;
+  background-size: 100% 90%;
   width: 60%;
   top: 0px;
   padding-bottom: 52%;

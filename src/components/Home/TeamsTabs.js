@@ -1,9 +1,11 @@
 import React from 'react';
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import {
+  Tab, Tabs, TabList, TabPanel
+} from 'react-tabs';
 // import Tabicondiv from '../../assets/icon11.png';
 import Tabimg1 from '../../assets/tabimg1.png';
 import Tabimg2 from '../../assets/tabimg2.jpg';
-// import tabicon2 from '../../assets/tabicon2.png';
+// import { Tabicon1 } from '../../assets';
 
 const TeamsTabs = () => (
   <div className='container'>
@@ -21,12 +23,6 @@ const TeamsTabs = () => (
       <Tabs>
         <TabList>
           <Tab>
-            {/* <div className='tabicondiv'>
-              <img
-                src='https://res.cloudinary.com/dvli2yrzi/image/upload/v1662905197/teamtabicon.svg'
-                alt='ds'
-              />
-            </div> */}
             <p className='sidetabtext'>
               Self organize around a
               <br />
@@ -34,9 +30,6 @@ const TeamsTabs = () => (
             </p>
           </Tab>
           <Tab>
-            {/* <div className='tabicondiv'>
-              <img src={tabicon2} alt='ds' />
-            </div> */}
             <p className='sidetabtext'>
               Set the big picture &
               <br />
@@ -44,9 +37,6 @@ const TeamsTabs = () => (
             </p>
           </Tab>
           <Tab>
-            {/* <div className='tabicondiv'>
-              <img src={tabicon2} alt='ds' />
-            </div> */}
             <p className='sidetabtext'>
               Make decisions, leaving no-
               <br />
@@ -54,9 +44,6 @@ const TeamsTabs = () => (
             </p>
           </Tab>
           <Tab>
-            {/* <div className='tabicondiv'>
-              <img src={tabicon2} alt='ds' />
-            </div> */}
             <p className='sidetabtext'>
               Jam regularly to reflect
               <br />
@@ -64,9 +51,6 @@ const TeamsTabs = () => (
             </p>
           </Tab>
           <Tab>
-            {/* <div className='tabicondiv'>
-              <img src={tabicon2} alt='ds' />
-            </div> */}
             <p className='sidetabtext'>
               Measure what matters,
               <br />
@@ -74,9 +58,6 @@ const TeamsTabs = () => (
             </p>
           </Tab>
           <Tab>
-            {/* <div className='tabicondiv'>
-              <img src={tabicon2} alt='ds' />
-            </div> */}
             <p className='sidetabtext'>
               Celebrate the outcomes
               <br />
@@ -165,6 +146,15 @@ const TeamsTabs = () => (
         </TabPanel>
       </Tabs>
     </div>
+    {/* <div className='col-sm-5'>
+      <div className='row'>
+        <div className='col-sm-3'>
+          <img alt='Tabicon' src={Tabicon1.default} />
+        </div>
+        <div className='col-sm-9'>sdffdg</div>
+      </div>
+    </div>
+    <div className='col-sm-7'>sdfdeffdsfsdsf</div> */}
   </div>
 );
 
