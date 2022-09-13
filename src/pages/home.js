@@ -51,7 +51,7 @@ const Home = () => {
               <div className='bordom_wrapper'>
                 <p className='border_text'>
                   <span className='replacetext'>Replace </span>
-                  <span className='bordomtext'>
+                  {/* <span className='bordomtext'>
                     <ReactTypingEffect
                       text={['Ego', 'Manipulation', 'Too much talk', 'Bias']}
                       cursorClassName='textcursor'
@@ -59,17 +59,19 @@ const Home = () => {
                       typingDelay={0}
                       eraseDelay={1000}
                     />
-                  </span>
+                  </span> */}
+                  <morque>Ego Manipulation Too much talk Bias</morque>
                   <br />
                   <span className='replacetext'>with </span>
-                  <span className='playfultext'>
+                  {/* <span className='playfultext'>
                     <ReactTypingEffect
                       text={['Humility', 'Truth', 'Sharp actions', 'Equality']}
                       cursorClassName='textcursor'
                       typingDelay={0}
                       eraseDelay={1000}
                     />
-                  </span>
+                  </span> */}
+                  <morque>Humility Truth Sharp actions Equality</morque>
                 </p>
                 <p className='bordom-subtext'>
                   Glue binds teams to do great things, effortlessly
